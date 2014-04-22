@@ -130,6 +130,7 @@ namespace Excel
 
         /// <summary>
         /// Valida los encabezados de la hoja.
+        /// En caso de que todos los encabezados sean correctos, devuelve True. De lo contrario, devuelve False.
         /// </summary>
         /// <returns></returns>
         private bool ValidarEncabezados()
